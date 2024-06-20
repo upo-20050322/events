@@ -9,7 +9,7 @@ export function renderNavbar(user, url) {
             <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-primary text-decoration-none fw-bold fs-2">
                 Events
             </a>
-            <form class="nav col-6 col-md-auto flex-fill mb-2 justify-content-center mb-md-0" role="search" id="navbar-searchbar">
+            <form class="nav col-6 col-sm-12 col-md-auto flex-fill mb-2 justify-content-center mb-0 mx-1" role="search" id="navbar-searchbar">
                 <input type="search" name="searchTerm" class="form-control border-primary" placeholder="Search..." readonly
                     aria-label="Search">
             </form>
